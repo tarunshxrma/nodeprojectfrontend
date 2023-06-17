@@ -13,20 +13,20 @@ import DetailDescription from './DetailDescription';
 const RoutesFile = () => {
   return (
     <>
-    <div className="comps"> 
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="/Bollywood" element={<Bollywood/>}/>
-        <Route path="/Technology" element={<Technology/>}/>
-        <Route path="/Hollywood" element={<Hollywood/>}/>
-        <Route path="/Fitness" element={<Fitness/>}/>
-        <Route path="/Food" element={<Food/>}/>
-        <Route path="/detaildescription/:id" element={<DetailDescription/>}/>
-        <Route path="*" element={<PageNotFound/>}/>
-      </Routes>
-      </BrowserRouter>
-    </div>
+      <div className="comps">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/Bollywood" element={<Bollywood />} />
+            <Route path="/Technology" element={<Technology />} />
+            <Route path="/Hollywood" element={<Hollywood />} />
+            <Route path="/Fitness" element={<Fitness />} />
+            <Route path="/Food" element={<Food />} />
+            <Route path="/detaildescription/:id" element={<DetailDescription />} />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </>
   )
 }

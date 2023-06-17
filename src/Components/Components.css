@@ -38,26 +38,29 @@
     color: gray;
 }
 .home-image-container{
-    margin-left: 170px;
+    width: 80vw;
+    margin-left: 10rem;
     display: flex;
     margin-bottom: 30px;
 }
 #bollywood-image img{
-    width: 700px;
+    width: 110%;
     height: 400px;
     border-radius: 20px;
-    margin-right: 10px;
+    margin-right: 6rem;
 }
 #tech-image img{
     width: 300px;
     height: 185px;
     border-radius: 20px;
     margin-bottom: 20px;
+    margin-left: 10rem;
 }
 #hollywood-image img{
     width: 300px;
     height: 190px;
     border-radius: 20px;
+    margin-left: 10rem;
 }
 .latest-stories{
     text-align: left;
@@ -72,23 +75,23 @@
     background-color: #F08080;
 }
 .home-latest{
-    width: 90%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    margin-left: 8rem;
 }
 .latest{
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
+    
 }
 .latest1,.latest2,.latest3,.latest4,.latest5,.latest6{
-    width: 320px;
+    width: 20rem;
     height:510px;
     padding: 10px;
     background-color: #FCFCFC;
     margin-top: 20px;
+    margin-right: 3rem;
 }
 .latest1 img,.latest2 img,.latest3 img,.latest4 img,.latest5 img,.latest6 img{
     width: 300px;
@@ -100,9 +103,8 @@
     margin-top: 50px;
 }
 .home-data{
-    margin-top: 0px;
+    width: 70%;
     margin-left: 20px;
-    width: 50%;
 }
 .home-top-posts-heading{
     margin-top: 0px;
@@ -112,7 +114,6 @@
 .data{
     margin-top: 100px;
     margin-left: 20px;
-    width: 50%;
 }
 .data1,.data2,.data3,.data4,.data5,.data6,.data7,.data8,.data9,.data10,.data11,.data12{
     text-align: left;
@@ -133,13 +134,19 @@ hr{
     background-color: #F0F0F0;
 }
 .data-container{
+    width: 90%;
     display: flex;
     justify-content: space-evenly;
 }
+.top-posts-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
 .top-posts{
-    width: 30%;
     text-align: left;
-    margin-left: 80px;
+    margin-left: 10rem;
+    width: 90%;
 }
 .top-posts-heading{
     margin-top: 100px;
@@ -155,9 +162,10 @@ hr{
     background-color: #F08080;
 }
 .load-more{
+    font-size: 1.2rem;
+    cursor: pointer;
     text-align: left;
     margin-left: 140px;
-    font-size: larger;
     margin-bottom: 50px;
 }
 .top-post1 img,.top-post2 img,.top-post3 img,.top-post4 img,.top-post5 img{
@@ -182,25 +190,23 @@ hr{
 }
 .advertisement{
     width: 350px;
-    height: 2200px;
+    height: 650px;
     border: 1px solid black;
-    position: absolute;
-    top: 1700px;
-    left: 916px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 12rem;
+    margin-top: 5rem;
 }
 .home-advertisement{
     width: 350px;
     height: 2200px;
     border: 1px solid black;
-    position: absolute;
-    top: 2800px;
-    left: 916px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 15rem;
+    margin-top: 10rem;
 }
 .error{
     font-size: 500px;
@@ -226,20 +232,18 @@ hr{
     box-shadow: 0 4px 10px -2px #00000029;
 }
 .detail-header h1{
-    margin-left: 100px;
+    margin-left: 30px;
 }
 #header-the{
     font-size: 30px;
-    margin-right: 5px;
-    background-color: black;
-    color: white;
+    color: black;
     padding: 5px;
+    margin-left: 50px;
 }
 #header-siren{
     font-size: 40px;
     font-weight: 900;
-    background-color: blue;
-    color: white;
+    color: black;
     padding: 5px;
 }
 .detail-content{
@@ -266,15 +270,15 @@ hr{
 }
 .avatar{
     border-radius: 50px;
-    margin-left: 410px;
+    margin-left: 36rem;
 }
 .person,.person-2{
     display: flex;
     align-items: center;
 }
 .person img,.person-2 img{
-    height: 75px;
-    width: 75px;
+    height: 6rem;
+    width: 6rem;
 }
 .name{
     margin-left: 15px;
@@ -289,7 +293,7 @@ hr{
 }
 .logos{
     font-size: 19px;
-    margin-left: 230px;
+    margin-left: 15rem;
 }
 .like-share{
     position: absolute;
@@ -482,6 +486,10 @@ hr{
     height: 630px;
     border-radius: 20px;
     margin-bottom: 30px;
+    margin-left: 0px;
+}
+#bollywood-image img{
+    margin-left: 115px;
 }
 .latest-stories{
     width: 1500px;
@@ -498,7 +506,7 @@ hr{
     font-size: 70px;
 }
 .top-stories{
-    width: 1500px;
+    width: 900px;
     font-size: 80px;
     margin-bottom: 50px;
 }
@@ -540,10 +548,14 @@ hr{
     align-items: center;
     box-shadow: 0 8px 15px -2px #00000029;
 }
+#back{
+    font-size: 150px;
+    margin-left: 30px;
+}
 #header-the{
     font-size: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 260px;
+    margin-right: 20px;
 }
 #header-siren{
     font-size: 120px;
@@ -776,8 +788,8 @@ hr{
         font-size: 70px;
         margin-bottom: 100px;
     }
-    .home-image-container{
-        width: 1570px;
+    .home-image-container{ 
+        width: 1570px; 
         height: 2000px;
         display: flex;
         flex-direction: column;
@@ -943,7 +955,7 @@ hr{
         width: 1600px;
         height: 2900px;
         margin-top: 150px;
-        background-color: gray;
+        background-color: #FAFAFA;
         text-align: left;
         padding: 10px;
     }
